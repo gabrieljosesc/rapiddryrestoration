@@ -47,7 +47,6 @@ export default async function ServicePage({ params }: { params: Promise<Params> 
           name: s.title,
           description: s.metaDescription,
           url: `/services/${s.slug}`,
-          offers: s.costRange ? { low: s.costRange.low, high: s.costRange.high } : undefined,
         })}
       />
       <PageHero
@@ -130,14 +129,10 @@ export default async function ServicePage({ params }: { params: Promise<Params> 
               </CallLink>
             </div>
 
-            {s.costRange && (
+            {s.timeline && (
               <div className="cost-box">
-                <h3>Typical cost in Toronto</h3>
-                <strong>
-                  ${s.costRange.low.toLocaleString()} – ${s.costRange.high.toLocaleString()}
-                </strong>
-                <p>{s.costRange.note}</p>
-                {s.timeline && <p className="mt-1">Timeline: {s.timeline}</p>}
+                <h3>Timeline</h3>
+                <p>{s.timeline}</p>
               </div>
             )}
 

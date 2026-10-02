@@ -14,7 +14,7 @@ export const northYork: AreaPage = {
   localContext: [
     "Most of North York was built between 1945 and 1970. Streets in Bayview Village, Don Mills, Parkwoods, Bathurst Manor and Lawrence Manor are lined with brick bungalows and split-levels on concrete block foundations, drained by clay weeping tile that is now sixty or seventy years old. Many of those basements were finished long ago with panelling, carpet and a bathroom added without a backwater valve. Along Yonge Street and in Willowdale, the original bungalows are steadily being replaced by large custom homes with deep basements, which sit lower relative to the water table and the municipal sewer than the houses they replaced.",
     "North York sits on the upper Don. The West Don runs through Hoggs Hollow and York Mills, the East Don through Bayview Village and Don Mills, and Black Creek cuts through the Jane and Finch area. On August 19, 2005, a storm dropped well over 100 mm in an hour and washed out a section of Finch Avenue West at Black Creek, one of the costliest weather events in Toronto's history at the time. Hoggs Hollow, which sits in the valley floor below Yonge and York Mills, has flooded repeatedly and is one of the lowest-lying residential pockets in the city.",
-    "Because North York is part of the City of Toronto, homeowners qualify for the Basement Flooding Protection Subsidy Program, which covers up to $3,400 for a backwater valve, sump pump and weeping tile disconnection. Several North York districts have been designated Basement Flooding Protection Program study areas after 2005 and 2013, with sewer upgrades rolling out over years. Along the Yonge and Sheppard corridors, thousands of condo suites in high-rise towers face a different risk: supply-line and stack leaks that travel floor to floor.",
+    "Because North York is part of the City of Toronto, homeowners qualify for the Basement Flooding Protection Subsidy Program, which helps cover a backwater valve, sump pump and weeping tile disconnection. Several North York districts have been designated Basement Flooding Protection Program study areas after 2005 and 2013, with sewer upgrades rolling out over years. Along the Yonge and Sheppard corridors, thousands of condo suites in high-rise towers face a different risk: supply-line and stack leaks that travel floor to floor.",
   ],
   neighbourhoods: [
     "Willowdale",
@@ -81,7 +81,7 @@ export const northYork: AreaPage = {
   faqs: [
     {
       q: "Does the Toronto basement flooding subsidy apply in North York?",
-      a: "Yes. North York is part of the City of Toronto, so the Basement Flooding Protection Subsidy Program applies. It pays up to $3,400 toward a backwater valve, a sump pump and severing the foundation drain from the sanitary sewer. Work must be done by a licensed plumber with a building permit. The subsidy is for prevention; the cleanup after a flood goes through your home insurance, which we bill directly.",
+      a: "Yes. North York is part of the City of Toronto, so the Basement Flooding Protection Subsidy Program applies. It helps pay for a backwater valve, a sump pump and severing the foundation drain from the sanitary sewer. Work must be done by a licensed plumber with a building permit. The subsidy is for prevention; the cleanup after a flood goes through your home insurance, which we bill directly.",
     },
     {
       q: "Why does my Don Mills basement get wet even when it does not rain hard?",

@@ -79,7 +79,7 @@ export const doesHomeInsuranceCoverWaterDamageOntario: Guide = {
     { type: "h3", text: "Sewer backup" },
     {
       type: "p",
-      text: "Sewer backup coverage pays when water or sewage comes up through floor drains, toilets or showers because the municipal sewer or your own drain line cannot handle the volume. It has been sold as a separate endorsement in Ontario since roughly 2015, after several large storm events led insurers to remove it from base policies. It often carries its own coverage limit, sometimes $10,000 to $50,000, and may have a separate deductible. Some insurers require a backwater valve before offering full limits.",
+      text: "Sewer backup coverage pays when water or sewage comes up through floor drains, toilets or showers because the municipal sewer or your own drain line cannot handle the volume. It has been sold as a separate endorsement in Ontario since roughly 2015, after several large storm events led insurers to remove it from base policies. It often carries its own coverage limit and may have a separate deductible. Some insurers require a backwater valve before offering full limits.",
     },
     { type: "h3", text: "Overland water" },
     {
@@ -121,7 +121,7 @@ export const doesHomeInsuranceCoverWaterDamageOntario: Guide = {
         "Report the claim to your insurer and get a claim number",
         "The insurer assigns an adjuster, who may visit or review photos, moisture readings and the restoration scope",
         "The restoration estimate is often prepared in Xactimate, the pricing platform most insurers use",
-        "You pay the deductible, commonly $1,000 to $2,500, and sometimes higher for water losses",
+        "You pay the deductible, which some insurers set higher for water losses",
         "With a Direction to Pay, the restoration company bills the insurer directly for the rest",
       ],
     },
@@ -132,7 +132,7 @@ export const doesHomeInsuranceCoverWaterDamageOntario: Guide = {
     { type: "h2", text: "How can you reduce the risk of a denied claim?" },
     {
       type: "p",
-      text: "Report quickly, document thoroughly and mitigate promptly. Insurers expect homeowners to take reasonable steps to prevent further damage, and a delay of days can be used to argue the loss became gradual. Keep receipts for emergency measures. Do not dispose of damaged items until the adjuster has approved it. Maintain your home: replace rubber appliance hoses with braided steel, clean eavestroughs, and install a backwater valve and sump pump. The City of Toronto Basement Flooding Protection Subsidy Program offers up to $3,400 toward a backwater valve, sump pump and downspout disconnection, and some insurers offer discounts for these devices.",
+      text: "Report quickly, document thoroughly and mitigate promptly. Insurers expect homeowners to take reasonable steps to prevent further damage, and a delay of days can be used to argue the loss became gradual. Keep receipts for emergency measures. Do not dispose of damaged items until the adjuster has approved it. Maintain your home: replace rubber appliance hoses with braided steel, clean eavestroughs, and install a backwater valve and sump pump. The City of Toronto Basement Flooding Protection Subsidy Program offers a subsidy toward a backwater valve, sump pump and downspout disconnection, and some insurers offer discounts for these devices.",
     },
     {
       type: "p",
@@ -162,5 +162,5 @@ export const doesHomeInsuranceCoverWaterDamageOntario: Guide = {
     },
   ],
   relatedServices: ["emergency-water-extraction", "sewer-backup", "burst-frozen-pipes", "leak-detection"],
-  relatedGuides: ["burst-pipe-vs-sewer-backup-whats-covered", "water-damage-restoration-cost-toronto"],
+  relatedGuides: ["burst-pipe-vs-sewer-backup-whats-covered", "first-hour-after-basement-flood"],
 };

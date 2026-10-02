@@ -63,20 +63,11 @@ export const leakDetection: ServicePage = {
     "Photograph the source, the moisture map and all affected materials for your claim file.",
     "Deliver a written report with the recommended next step: repair only, dry in place, or extraction and tear-out.",
   ],
-  costRange: {
-    low: 250,
-    high: 600,
-    note: "A leak detection assessment in Toronto typically runs $250 to $600 depending on how many rooms need scanning and whether pressure or dye testing is required. If the assessment leads to a restoration job, the assessment fee is usually folded into the claim.",
-  },
   timeline:
     "Assessment booked within 24 hours, same day for active leaks. Source confirmed in 1 to 2 hours on site. Drying, if needed, typically 3 to 5 days.",
   insuranceNote:
     "Most Ontario home policies cover sudden and accidental water escape from plumbing, appliances or heating systems, and that includes the drying and repair of the damage, but usually not the cost of fixing the pipe. Slow leaks that were visible and ignored for a long period are commonly excluded. Our report documents the source, the date of discovery and the extent of damage, which is what the adjuster uses to decide coverage. If the claim is approved we bill your insurer directly through a Direction to Pay form.",
   faqs: [
-    {
-      q: "How much does it cost to find a water leak in Toronto?",
-      a: "A professional leak detection assessment in Toronto generally costs $250 to $600. The price depends on the size of the area to be scanned and whether the source needs pressure testing or dye testing to confirm. If the leak has caused damage that becomes an insurance claim, the assessment is typically included in the restoration invoice we send to your insurer.",
-    },
     {
       q: "Can you find a leak under a concrete slab or a finished basement floor?",
       a: "Yes. Slab leaks show up as warm or cool patches on thermal imaging, and radiant heating loops can be isolated and pressure tested. We also use acoustic listening for pressurized lines under concrete. Finished basement floors are scanned from above and confirmed with meters at the baseboards and lowest points.",

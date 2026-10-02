@@ -42,7 +42,7 @@ export const floodedBasements: ServicePage = {
       heading: "Why does my basement keep flooding every time it rains hard?",
       body: [
         "Repeat flooding in rain is a drainage or sewer problem, not bad luck. In older Toronto neighbourhoods with combined sewers, a heavy storm overwhelms the main and pushes water up the floor drain. In newer areas, the usual culprits are a downspout still tied into the weeping tile, a clogged weeping tile, a sump pump without battery backup, or foundation cracks below grade. Grading that slopes toward the house adds to all of them.",
-        "The City of Toronto Basement Flooding Protection Subsidy Program pays up to $3,400 toward a backwater valve, a sump pump and downspout disconnection for eligible homes. Vaughan, Markham and Mississauga run similar programs. After cleanup, DryFort Waterproofing can inspect the foundation and drainage and give you a plan so the next storm is not another claim.",
+        "The City of Toronto Basement Flooding Protection Subsidy Program helps pay for a backwater valve, a sump pump and downspout disconnection for eligible homes. Vaughan, Markham and Mississauga run similar programs. After cleanup, DryFort Waterproofing can inspect the foundation and drainage and give you a plan so the next storm is not another claim.",
       ],
     },
     {
@@ -62,11 +62,6 @@ export const floodedBasements: ServicePage = {
     "Set air movers and dehumidifiers, establish drying goals for each material, and monitor daily.",
     "Complete the Direction to Pay, submit the loss report, and schedule Rebuild Pro Contracting for the rebuild when the space reads dry.",
   ],
-  costRange: {
-    low: 5000,
-    high: 25000,
-    note: "A flooded basement with tear-out in Toronto typically costs $5,000 to $25,000 or more, before rebuild. Clean water in an unfinished basement sits at the low end. A finished basement with grey or black water, full flooring and drywall removal, and a large contents loss sits at the top. Rebuild adds to this and is quoted separately.",
-  },
   timeline:
     "On site target 60 minutes. Pump-out and extraction same day. Tear-out 1 to 2 days. Drying 3 to 5 days, up to 10 for heavily finished basements. Rebuild scheduled after dry-out.",
   insuranceNote:
@@ -79,10 +74,6 @@ export const floodedBasements: ServicePage = {
     {
       q: "Can I dry a flooded basement myself with fans and a dehumidifier?",
       a: "For a small clean-water leak, possibly. For a basement that had standing water, no. Household dehumidifiers cannot keep up with the moisture load, and fans alone push humid air into the rest of the house. Wet drywall, insulation and pad do not dry in place with consumer equipment, and mould starts within 48 hours. Professional extraction and commercial drying equipment finish in days what a household setup cannot finish at all.",
-    },
-    {
-      q: "How much does it cost to clean up a flooded basement in Toronto?",
-      a: "Extraction and drying alone usually run $2,000 to $8,000. A full flooded basement with tear-out and disposal typically lands between $5,000 and $25,000, and larger finished basements with sewage can go higher. The main cost drivers are square footage, water category, how long it sat, and how much finish material has to come out. Most of this is covered when the source is a covered peril.",
     },
     {
       q: "My sump pump failed. Is that covered?",

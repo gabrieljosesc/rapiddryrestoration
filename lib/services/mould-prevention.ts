@@ -50,7 +50,7 @@ export const mouldPrevention: ServicePage = {
       heading: "How do I prevent mould in a Toronto basement?",
       body: [
         "Control humidity and stop water at the source. Run a dehumidifier in the basement from May to October and keep humidity under 50 percent. Insulate cold water pipes and exterior walls to prevent condensation. Extend downspouts at least 1.8 metres from the foundation and make sure grading slopes away. Fix foundation cracks and seepage rather than living with a damp corner. Do not store cardboard and fabric directly on a concrete floor.",
-        "If the basement has ever flooded or has chronic seepage, DryFort Waterproofing can address the foundation and drainage. The City of Toronto subsidy of up to $3,400 for backwater valves and sump pumps applies to many of the measures that also reduce basement moisture.",
+        "If the basement has ever flooded or has chronic seepage, DryFort Waterproofing can address the foundation and drainage. The City of Toronto subsidy for backwater valves and sump pumps applies to many of the measures that also reduce basement moisture.",
       ],
     },
     {
@@ -69,15 +69,10 @@ export const mouldPrevention: ServicePage = {
     "Dry the area to a measured standard and run air scrubbers until the final clean is complete.",
     "Document every stage with photos, arrange third-party clearance testing on larger jobs, and hand off to Rebuild Pro Contracting.",
   ],
-  costRange: {
-    low: 500,
-    high: 6000,
-    note: "Mould remediation in Toronto generally costs $500 to $6,000. A small area under one square metre, such as a section behind a bathroom vanity, sits at the low end. A finished basement with growth across several walls, full containment, air scrubbing and clearance testing sits at the top. Fixing the moisture source and the rebuild are separate.",
-  },
   timeline:
     "Assessment within 1 to 3 days. Small remediation 1 day. Larger basement remediation 3 to 5 days including drying, plus clearance testing where required.",
   insuranceNote:
-    "Mould coverage in Ontario is limited. Most home policies cover mould only when it results directly from a covered sudden water event, such as a burst pipe, and many cap mould remediation at a sublimit, commonly $5,000 to $15,000. Mould from long-term leaks, humidity, seepage or neglected maintenance is generally excluded. The key is to report the water event promptly and dry quickly, which keeps mould within the original covered claim. When it is covered, we bill your insurer directly through a Direction to Pay. When it is not, we quote a fixed price before starting.",
+    "Mould coverage in Ontario is limited. Most home policies cover mould only when it results directly from a covered sudden water event, such as a burst pipe, and many cap mould remediation at a sublimit. Mould from long-term leaks, humidity, seepage or neglected maintenance is generally excluded. The key is to report the water event promptly and dry quickly, which keeps mould within the original covered claim. When it is covered, we bill your insurer directly through a Direction to Pay. When it is not, we quote a fixed price before starting.",
   faqs: [
     {
       q: "Can I clean mould myself with bleach?",
@@ -86,10 +81,6 @@ export const mouldPrevention: ServicePage = {
     {
       q: "Do I need to have the mould tested before you remove it?",
       a: "Usually not. Visible growth on a wet or previously wet surface is enough to plan remediation, and testing adds cost without changing the work. We take samples when the scope is unclear, when a tenant or buyer dispute is involved, or when an insurer or physician requests it. Post-remediation clearance testing is more useful, because it confirms the job is done.",
-    },
-    {
-      q: "How much does mould removal cost in Toronto?",
-      a: "Most residential jobs land between $500 and $6,000. The cost is driven by the size of the affected area, how much material has to be removed, whether full containment and negative air are required, and whether clearance testing is included. Correcting the moisture source, such as a foundation repair, is quoted separately.",
     },
     {
       q: "Will the mould come back after remediation?",

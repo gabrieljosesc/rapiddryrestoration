@@ -33,7 +33,6 @@ export function organizationSchema() {
     description: site.description,
     telephone: site.phone,
     email: site.email,
-    priceRange: "$$",
     address: {
       "@type": "PostalAddress",
       streetAddress: a.street,
@@ -101,7 +100,6 @@ export function serviceSchema(input: {
   description: string;
   url: string;
   areaServed?: string;
-  offers?: { low: number; high: number };
 }) {
   return {
     "@context": "https://schema.org",
@@ -123,15 +121,5 @@ export function serviceSchema(input: {
       opens: "00:00",
       closes: "23:59",
     },
-    ...(input.offers
-      ? {
-          offers: {
-            "@type": "AggregateOffer",
-            priceCurrency: "CAD",
-            lowPrice: input.offers.low,
-            highPrice: input.offers.high,
-          },
-        }
-      : {}),
   };
 }

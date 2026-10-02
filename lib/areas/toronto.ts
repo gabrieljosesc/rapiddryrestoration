@@ -14,7 +14,7 @@ export const toronto: AreaPage = {
   localContext: [
     "Toronto's oldest neighbourhoods were built between the 1880s and the 1940s. Cabbagetown, Riverdale, the Annex, Parkdale, Roncesvalles and the Junction are full of brick semis and rowhouses with rubble or early block foundations, clay weeping tile that has often collapsed, and floor drains tied into combined sewers. Those combined sewers carry both stormwater and sanitary flow in one pipe. When a summer storm overwhelms them, sewage backs up through basement floor drains. Roughly a quarter of the city's sewer network is still combined, almost all of it in the pre-1950s core.",
     "The flood record here is not theoretical. On July 8, 2013, more than 120 mm of rain fell in a few hours, stranding a GO train in the Don Valley and flooding thousands of basements. On August 7, 2018, a fast downtown storm filled Union Station and trapped people in a flooded elevator. On July 16, 2024, close to 100 mm closed the Don Valley Parkway, flooded Union Station again and knocked out power to large parts of the city. Each event produced a spike in basement flooding and sewer backup claims that took weeks to clear.",
-    "The city responds with the Basement Flooding Protection Subsidy Program, which pays up to $3,400 toward a backwater valve, a sump pump and severing the weeping tile from the sanitary sewer. Toronto also runs Basement Flooding Protection Program study areas that rank chronic flooding zones for sewer upgrades. Downtown, the risk looks different: glass condo towers along the waterfront, CityPlace and Yorkville see supply-line failures and stack leaks that travel down through many suites in minutes.",
+    "The city responds with the Basement Flooding Protection Subsidy Program, which helps pay for a backwater valve, a sump pump and severing the weeping tile from the sanitary sewer. Toronto also runs Basement Flooding Protection Program study areas that rank chronic flooding zones for sewer upgrades. Downtown, the risk looks different: glass condo towers along the waterfront, CityPlace and Yorkville see supply-line failures and stack leaks that travel down through many suites in minutes.",
   ],
   neighbourhoods: [
     "Cabbagetown",
@@ -85,7 +85,7 @@ export const toronto: AreaPage = {
   faqs: [
     {
       q: "Does the City of Toronto help pay for a backwater valve?",
-      a: "Yes. The Basement Flooding Protection Subsidy Program offers up to $3,400 per property toward a backwater valve, a sump pump and disconnecting the weeping tile from the sanitary sewer. The work must be done by a licensed plumber with a permit. It does not cover the restoration after a flood, which is where your home insurance and our direct billing come in.",
+      a: "Yes. The Basement Flooding Protection Subsidy Program offers a per-property subsidy toward a backwater valve, a sump pump and disconnecting the weeping tile from the sanitary sewer. The work must be done by a licensed plumber with a permit. It does not cover the restoration after a flood, which is where your home insurance and our direct billing come in.",
     },
     {
       q: "Is sewer backup covered by home insurance in Toronto?",

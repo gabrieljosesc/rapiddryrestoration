@@ -14,7 +14,7 @@ export const scarborough: AreaPage = {
   localContext: [
     "Scarborough grew fast after the war. Neighbourhoods like Wexford, Bendale, Dorset Park, Clairlea and Cliffside filled in through the 1950s with brick bungalows and side-splits on concrete block foundations. Agincourt, Woburn, L'Amoreaux and Malvern followed in the 1960s and 1970s with larger two-storeys and townhouse blocks. Nearly all of these homes were built with clay or early plastic weeping tile and most have had the basement finished at least once, often with a bathroom and a rental suite added years later. Scarborough also has one of the largest stocks of 1960s and 1970s high-rise rental towers in the country.",
     "Two river systems cut through the borough. Highland Creek drains the centre and empties at the lake near West Hill. The Rouge and Little Rouge form the eastern edge along Malvern and the Rouge Valley. Between them, the land tilts toward Lake Ontario and the Scarborough Bluffs, so runoff moves fast. The July 8, 2013 storm and the July 16, 2024 storm both flooded Scarborough basements in large numbers, particularly in the low-lying areas along Highland Creek and near the older sewer mains that pre-date the 1970s.",
-    "Because Scarborough is within the City of Toronto, residents can apply to the Basement Flooding Protection Subsidy Program for up to $3,400 toward a backwater valve, sump pump and weeping tile disconnection. Several Scarborough districts have been named Basement Flooding Protection Program study areas. In the towers, the common failure is a cast iron or copper stack that corrodes and leaks into the suites below, which can affect ten or more units from a single failure point.",
+    "Because Scarborough is within the City of Toronto, residents can apply to the Basement Flooding Protection Subsidy Program for help with a backwater valve, sump pump and weeping tile disconnection. Several Scarborough districts have been named Basement Flooding Protection Program study areas. In the towers, the common failure is a cast iron or copper stack that corrodes and leaks into the suites below, which can affect ten or more units from a single failure point.",
   ],
   neighbourhoods: [
     "Agincourt",
@@ -90,7 +90,7 @@ export const scarborough: AreaPage = {
     },
     {
       q: "Can I get the Toronto backwater valve subsidy in Scarborough?",
-      a: "Yes. Scarborough is part of the City of Toronto, so the Basement Flooding Protection Subsidy Program applies. It reimburses up to $3,400 for a backwater valve, sump pump and disconnecting the weeping tile from the sewer, installed by a licensed plumber under a permit. Apply through the city after the work is done.",
+      a: "Yes. Scarborough is part of the City of Toronto, so the Basement Flooding Protection Subsidy Program applies. It reimburses part of the cost of a backwater valve, sump pump and disconnecting the weeping tile from the sewer, installed by a licensed plumber under a permit. Apply through the city after the work is done.",
     },
     {
       q: "How quickly does mould start after a Scarborough basement floods?",

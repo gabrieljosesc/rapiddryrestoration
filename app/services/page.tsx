@@ -38,11 +38,6 @@ export default function ServicesPage() {
                   <p>{s.answer}</p>
                   <div className="card__meta">
                     {s.timeline && <span>{s.timeline}</span>}
-                    {s.costRange && (
-                      <span>
-                        Typically ${s.costRange.low.toLocaleString()} to ${s.costRange.high.toLocaleString()}
-                      </span>
-                    )}
                   </div>
                   <span className="card__link">
                     {s.navLabel} details <ArrowIcon size={16} />

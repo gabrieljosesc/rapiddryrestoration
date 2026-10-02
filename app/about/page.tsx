@@ -18,7 +18,7 @@ const values = [
   { title: "Answer first, dispatch second", body: "A live person answers the emergency line 24/7 and gives you the safety steps that matter before the crew is even on the road." },
   { title: "Document everything", body: "Photos, moisture maps and daily drying logs on every job. It protects your claim and it keeps us honest about when a structure is actually dry." },
   { title: "Dry it right, not fast", body: "We follow the IICRC S500 standard: equipment sized to the loss, readings taken daily, removed only when the dry standard is met." },
-  { title: "Tell you when not to claim", body: "If a loss is small enough that a claim could cost you more at renewal than it saves, we say so and give you a direct-pay price instead." },
+  { title: "Tell you when not to claim", body: "If a loss is small enough that a claim could cost you more at renewal than it saves, we say so and let you decide." },
 ];
 
 export default function AboutPage() {

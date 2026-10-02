@@ -63,11 +63,6 @@ export const emergencyWaterExtraction: ServicePage = {
     "Place air movers and dehumidifiers sized to the room and take the baseline moisture readings.",
     "Complete the Direction to Pay with you and send the first loss report to your insurer within 24 hours.",
   ],
-  costRange: {
-    low: 2000,
-    high: 8000,
-    note: "Extraction and drying of a typical Toronto basement or main floor runs $2,000 to $8,000. The range moves with square footage, water depth, how long the water sat, the water category, and whether flooring and drywall can be dried in place or must be removed. Sewage or long-standing water pushes toward the top of the range.",
-  },
   timeline:
     "On site target 60 minutes. Extraction complete in 2 to 6 hours for most homes. Structural drying 3 to 5 days with daily monitoring.",
   insuranceNote:

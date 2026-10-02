@@ -96,10 +96,6 @@ export const mississauga: AreaPage = {
       a: "Call the building's concierge or property management so they can shut off the riser and reach the unit above, then call our 24/7 emergency line. We coordinate access with management, dry your suite and document the damage for your unit policy and the condo corporation's insurer. Shutting the water off quickly is the single biggest factor in how much of your suite can be saved.",
     },
     {
-      q: "How much does water damage restoration cost in Mississauga?",
-      a: "A small clean-water loss confined to one room typically runs from a few thousand dollars. A fully flooded finished basement with sewage or creek water can run well into five figures once removal, disinfection, drying and rebuild are included. When the loss is insured, you pay only your deductible and we bill the rest to your insurer directly under a Direction to Pay.",
-    },
-    {
       q: "Do you serve Malton and the area near the airport?",
       a: "Yes. Malton is part of Mississauga and our west-end crew reaches it via the 401, 427 and Airport Road. The 1950s and 1960s bungalows there have block foundations and aging weeping tile, so wet basements are common after heavy rain. We treat it the same as any other Mississauga call, with a target of being on site within 60 minutes.",
     },

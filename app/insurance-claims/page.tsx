@@ -89,10 +89,10 @@ export default function InsuranceClaimsPage() {
               </table>
             </div>
 
-            <h2>What is a deductible and how much is it?</h2>
+            <h2>What is a deductible?</h2>
             <p>
-              Your deductible is the part of any claim you pay yourself. In Ontario it is commonly $1,000 to
-              $2,500, and some policies carry a separate, higher water damage or sewer backup deductible. It comes
+              Your deductible is the part of any claim you pay yourself. The amount is set in your policy, and
+              some policies carry a separate, higher water damage or sewer backup deductible. It comes
               off the insurer&apos;s payment to us, so you settle it at the end of the job rather than before work
               starts.
             </p>
@@ -159,8 +159,8 @@ export default function InsuranceClaimsPage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/resources/water-damage-restoration-cost-toronto">
-                    Restoration costs in Toronto <ArrowIcon size={14} />
+                  <Link href="/resources/how-long-to-dry-flooded-basement">
+                    How long drying takes <ArrowIcon size={14} />
                   </Link>
                 </li>
                 <li>

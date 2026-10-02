@@ -69,11 +69,6 @@ export const burstFrozenPipes: ServicePage = {
     "Return daily to log moisture readings and adjust equipment until the framing reaches dry standard.",
     "Photograph and document each stage, complete the Direction to Pay, and hand off to Rebuild Pro Contracting for reconstruction.",
   ],
-  costRange: {
-    low: 2500,
-    high: 15000,
-    note: "A burst-pipe loss in Toronto that is caught quickly and affects one room usually costs $2,500 to $6,000 to extract and dry. A pipe that ran for hours through multiple floors, or one that flooded a finished basement, runs $8,000 to $15,000 or more once tear-out is included. Rebuild is quoted separately.",
-  },
   timeline:
     "On site target 60 minutes. Extraction and initial tear-out same day. Structural drying 3 to 5 days, longer if the water reached hardwood or multiple floors.",
   insuranceNote:

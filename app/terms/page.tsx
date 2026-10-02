@@ -31,11 +31,10 @@ export default function TermsPage() {
             responsible for your policy deductible and for any work your insurer declines to cover, which we will
             quote in writing before proceeding.
           </p>
-          <h2>Estimates and pricing</h2>
+          <h2>Scope of work</h2>
           <p>
-            Cost ranges published on this site are typical figures for Toronto and the GTA and are provided for
-            guidance. Actual pricing is set out in the written scope for your job, prepared in industry-standard
-            estimating software.
+            The work performed on your property is set out in the written scope for your job, prepared in
+            industry-standard estimating software and shared with your insurer where a claim applies.
           </p>
           <h2>Warranty</h2>
           <p>

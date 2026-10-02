@@ -54,7 +54,7 @@ export const structuralDryingDehumidification: ServicePage = {
     {
       heading: "Do you need to keep the equipment running the whole time?",
       body: [
-        "Yes. Drying is continuous, and switching equipment off overnight can add a day or more to the timeline because materials re-absorb moisture from the air. The equipment is loud, roughly the level of a vacuum cleaner, and it uses electricity. Power costs for a typical 4-day dry are usually $30 to $80, and that cost is claimable. We place equipment to minimize disruption where we can, and we tell you up front how long it will run.",
+        "Yes. Drying is continuous, and switching equipment off overnight can add a day or more to the timeline because materials re-absorb moisture from the air. The equipment is loud, roughly the level of a vacuum cleaner, and it uses electricity. The electricity used over a typical 4-day dry is modest, and that cost is claimable. We place equipment to minimize disruption where we can, and we tell you up front how long it will run.",
       ],
     },
   ],
@@ -67,11 +67,6 @@ export const structuralDryingDehumidification: ServicePage = {
     "Confirm every monitored point meets the dry standard, then remove equipment and photograph the finished space.",
     "Deliver a complete drying log to you and your insurer and hand off to Rebuild Pro Contracting for reconstruction.",
   ],
-  costRange: {
-    low: 1500,
-    high: 6000,
-    note: "Structural drying in Toronto as a standalone service usually costs $1,500 to $6,000, driven by the number of days, the amount of equipment, and whether specialty systems like floor mats or injection drying are needed. Within a full extraction job, drying is part of the $2,000 to $8,000 range. Daily monitoring visits are included.",
-  },
   timeline:
     "Equipment placed same day as extraction. Most homes reach dry standard in 3 to 5 days. Hardwood, plaster and concrete can take 7 to 14 days.",
   insuranceNote:

@@ -49,8 +49,8 @@ export const sewerBackup: ServicePage = {
     {
       heading: "Does home insurance in Ontario cover sewer backup?",
       body: [
-        "Only if you bought the sewer backup endorsement. It is not part of a standard Ontario home policy. Most insurers offer it as an add-on with its own limit, commonly $10,000 to $50,000, and sometimes with a separate deductible. If you have it, cleanup, tear-out, drying and rebuild are covered up to that limit. If you do not, the cost is out of pocket, which is why we always recommend checking your declarations page before storm season.",
-        "Insurers increasingly require a backwater valve to keep the endorsement after a claim. The City of Toronto Basement Flooding Protection Subsidy Program covers up to $3,400 of the cost of installing one, along with a sump pump and downspout disconnection.",
+        "Only if you bought the sewer backup endorsement. It is not part of a standard Ontario home policy. Most insurers offer it as an add-on with its own limit and sometimes with a separate deductible. If you have it, cleanup, tear-out, drying and rebuild are covered up to that limit. If you do not, the cost is out of pocket, which is why we always recommend checking your declarations page before storm season.",
+        "Insurers increasingly require a backwater valve to keep the endorsement after a claim. The City of Toronto Basement Flooding Protection Subsidy Program helps cover the cost of installing one, along with a sump pump and downspout disconnection.",
       ],
     },
     {
@@ -69,11 +69,6 @@ export const sewerBackup: ServicePage = {
     "Set drying equipment, monitor daily, and confirm dry standard before a final antimicrobial pass.",
     "Complete the Direction to Pay, send the loss report to your insurer, and hand off to Rebuild Pro Contracting for reconstruction.",
   ],
-  costRange: {
-    low: 3000,
-    high: 15000,
-    note: "Sewer backup cleanup in Toronto typically runs $3,000 to $15,000 or more before rebuild. An unfinished basement with a small backup sits at the low end. A finished basement with a large contents loss, extensive drywall removal and several days of air scrubbing sits at the top. Rebuild costs are separate and often exceed the cleanup.",
-  },
   timeline:
     "On site target 60 minutes. Extraction and removal of contaminated materials 1 to 2 days. Disinfection and drying 3 to 5 days. Rebuild after dry-out is confirmed.",
   insuranceNote:
@@ -88,16 +83,12 @@ export const sewerBackup: ServicePage = {
       a: "No. Under the IICRC S500 standard, carpet and underpad that contact Category 3 water are removed and disposed of. There is no cleaning process that reliably makes them safe, and insurers expect them to be replaced. Hard flooring like tile over concrete can usually be cleaned and kept.",
     },
     {
-      q: "How much does sewer backup cleanup cost in Toronto?",
-      a: "Most jobs land between $3,000 and $15,000 for cleanup, disposal, disinfection and drying. Larger finished basements with a big contents loss can go higher. Rebuild is separate. If you carry the sewer backup endorsement, the whole amount is covered up to your limit, minus the deductible.",
-    },
-    {
       q: "Why did my basement back up when my neighbour's did not?",
       a: "Elevation and plumbing. The lowest fixture on the street floods first, and a house with a floor drain a few centimetres lower than the neighbour's takes the flow. Homes that have already installed a backwater valve are protected. Some newer homes in the same area have separated sewers while older ones are still on the combined line.",
     },
     {
       q: "Does the City of Toronto help pay to prevent sewer backups?",
-      a: "Yes. The Basement Flooding Protection Subsidy Program offers up to $3,400 for eligible homeowners toward a backwater valve, a sump pump and severing or capping the storm sewer connection, including downspout disconnection. The work must be done by a licensed contractor with the correct permits. Vaughan, Markham and Mississauga run comparable programs.",
+      a: "Yes. The Basement Flooding Protection Subsidy Program offers eligible homeowners a subsidy toward a backwater valve, a sump pump and severing or capping the storm sewer connection, including downspout disconnection. The work must be done by a licensed contractor with the correct permits. Vaughan, Markham and Mississauga run comparable programs.",
     },
   ],
   related: ["flooded-basements", "tear-out", "mould-prevention"],

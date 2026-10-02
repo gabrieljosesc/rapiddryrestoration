@@ -14,7 +14,7 @@ export const etobicoke: AreaPage = {
   localContext: [
     "Etobicoke is defined by three rivers. The Humber forms its eastern edge, Mimico Creek runs down the middle through Kingsview Village and Islington, and Etobicoke Creek marks the border with Mississauga. On October 15, 1954, Hurricane Hazel sent the Humber over its banks and swept away homes on Raymore Drive. That night is the reason the ravines are parkland today and the reason Ontario regulates floodplain building. It also left the valleys lined with older homes that still sit close to the water table.",
     "The housing runs in bands. The lakeshore communities of Mimico, New Toronto and Long Branch have small cottages and bungalows from the 1910s to the 1940s, many with shallow foundations and combined sewers. The Kingsway, Sunnylea and Humber Valley Village are 1920s and 1930s brick homes on stone or early block foundations. Central Etobicoke, including Eatonville, Islington, Alderwood and Markland Wood, is 1950s and 1960s bungalow country. Rexdale and Thistletown followed in the 1960s. Humber Bay Shores is a wall of glass condo towers built since 2000.",
-    "On July 8, 2013, Etobicoke was one of the worst-hit parts of the city, with streets around Islington Avenue and Rathburn Road under water and thousands of basements flooded. The City of Toronto has since designated several Etobicoke areas as Basement Flooding Protection Program study areas, and Etobicoke homeowners qualify for the city's subsidy of up to $3,400 for a backwater valve and sump pump. Winter adds its own risk, with lake-effect cold snaps freezing pipes in older uninsulated walls near the shore.",
+    "On July 8, 2013, Etobicoke was one of the worst-hit parts of the city, with streets around Islington Avenue and Rathburn Road under water and thousands of basements flooded. The City of Toronto has since designated several Etobicoke areas as Basement Flooding Protection Program study areas, and Etobicoke homeowners qualify for the city's subsidy for a backwater valve and sump pump. Winter adds its own risk, with lake-effect cold snaps freezing pipes in older uninsulated walls near the shore.",
   ],
   neighbourhoods: [
     "The Kingsway",
@@ -80,7 +80,7 @@ export const etobicoke: AreaPage = {
   faqs: [
     {
       q: "My street in Etobicoke flooded in 2013. Am I in a Basement Flooding Protection Program study area?",
-      a: "Possibly. The City of Toronto has mapped dozens of study areas across the city, and several cover parts of Etobicoke that were hit hardest in 2005 and 2013. The city publishes a map of the study areas and their status. Whether or not you are in one, you can apply for the subsidy of up to $3,400 toward a backwater valve and sump pump today.",
+      a: "Possibly. The City of Toronto has mapped dozens of study areas across the city, and several cover parts of Etobicoke that were hit hardest in 2005 and 2013. The city publishes a map of the study areas and their status. Whether or not you are in one, you can apply for the subsidy toward a backwater valve and sump pump today.",
     },
     {
       q: "Is overland flooding from the Humber or Mimico Creek covered by home insurance?",

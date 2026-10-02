@@ -219,7 +219,7 @@ export const homeFaqs: Faq[] = [
   },
   {
     q: "Do I have to pay for water damage restoration up front?",
-    a: "No. For covered claims we bill your insurance company directly using a Direction to Pay form. You are responsible only for your policy deductible, which is typically $1,000 to $2,500 in Ontario. If a loss is not covered, we give you a written estimate before any chargeable work starts.",
+    a: "No. For covered claims we bill your insurance company directly using a Direction to Pay form. You are responsible only for your policy deductible. If a loss is not covered, we explain the scope in writing before any chargeable work starts.",
   },
   {
     q: "Does home insurance cover water damage in Ontario?",
@@ -267,15 +267,15 @@ export const insuranceSteps: InsuranceStep[] = [
 export const insuranceFaqs: Faq[] = [
   {
     q: "Who pays for water damage restoration?",
-    a: "For a covered loss your insurance company pays the restoration company, minus your deductible. RapidDry bills the insurer directly, so you are not out of pocket for the emergency work. If the cause is not covered, you pay the restoration company yourself, and we give you a written estimate first.",
+    a: "For a covered loss your insurance company pays the restoration company, minus your deductible. RapidDry bills the insurer directly, so you are not out of pocket for the emergency work. If the cause is not covered, you pay the restoration company yourself, and we agree the scope with you in writing first.",
   },
   {
     q: "What is a deductible and when do I pay it?",
-    a: "The deductible is the portion of any claim you pay yourself. In Ontario it is commonly $1,000 to $2,500, and some policies carry a higher water damage deductible. It is deducted from the insurer's payment, so you settle it with us at the end of the job, not before work starts.",
+    a: "The deductible is the portion of any claim you pay yourself. The amount is set by your policy, and some policies carry a higher water damage deductible. It is deducted from the insurer's payment, so you settle it with us at the end of the job, not before work starts.",
   },
   {
     q: "What does an insurance adjuster do?",
-    a: "The adjuster represents the insurer. They confirm the cause of loss, decide what the policy covers and review the scope and pricing. We meet them on site, walk them through the moisture map and photos, and answer their questions so the claim moves quickly. You can be present too.",
+    a: "The adjuster represents the insurer. They confirm the cause of loss, decide what the policy covers and review the scope. We meet them on site, walk them through the moisture map and photos, and answer their questions so the claim moves quickly. You can be present too.",
   },
   {
     q: "What is a Direction to Pay form?",

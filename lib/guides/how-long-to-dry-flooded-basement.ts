@@ -129,5 +129,5 @@ export const howLongToDryFloodedBasement: Guide = {
     },
   ],
   relatedServices: ["structural-drying-dehumidification", "flooded-basements", "mould-prevention"],
-  relatedGuides: ["first-hour-after-basement-flood", "water-damage-restoration-cost-toronto"],
+  relatedGuides: ["first-hour-after-basement-flood", "does-home-insurance-cover-water-damage-ontario"],
 };

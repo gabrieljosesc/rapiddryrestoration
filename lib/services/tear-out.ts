@@ -63,11 +63,6 @@ export const tearOut: ServicePage = {
     "Bag debris inside containment, remove it along a protected path, and dispose of it properly.",
     "HEPA vacuum the exposed framing and slab, apply antimicrobial where the category requires it, and hand the space to the drying crew.",
   ],
-  costRange: {
-    low: 1500,
-    high: 8000,
-    note: "Tear-out in Toronto typically runs $1,500 to $8,000 as a line item within a water loss. A single room with a 2-foot flood cut sits at the low end. A whole finished basement with 4-foot cuts, flooring removal, cabinet removal and Category 3 handling sits at the top. Containment and disposal fees are included in our pricing.",
-  },
   timeline:
     "Most residential tear-outs are completed in 1 to 2 days. Drying follows immediately, typically 3 to 5 days, then rebuild.",
   insuranceNote:
@@ -91,7 +86,7 @@ export const tearOut: ServicePage = {
     },
     {
       q: "What happens to the debris?",
-      a: "Everything is bagged in the work area, carried out along a covered path, and taken to a licensed waste facility. Category 3 materials are bagged separately and handled as contaminated waste. Disposal is included in our pricing and itemized on the claim.",
+      a: "Everything is bagged in the work area, carried out along a covered path, and taken to a licensed waste facility. Category 3 materials are bagged separately and handled as contaminated waste. Disposal is included and itemized on the claim.",
     },
   ],
   related: ["flooded-basements", "structural-drying-dehumidification", "mould-prevention"],

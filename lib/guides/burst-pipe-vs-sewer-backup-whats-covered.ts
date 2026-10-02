@@ -48,14 +48,9 @@ export const burstPipeVsSewerBackupWhatsCovered: Guide = {
         [
           "Coverage limit",
           "Usually the full dwelling and contents limits",
-          "Often a sub-limit, such as $10,000 to $50,000",
+          "Often a separate sub-limit",
         ],
-        ["Deductible", "Standard, commonly $1,000 to $2,500", "May be separate and higher"],
-        [
-          "Typical Toronto cleanup cost (2026)",
-          "$2,000 to $8,000 for extraction and drying; $5,000 to $25,000+ with tear-out",
-          "$3,000 to $15,000+",
-        ],
+        ["Deductible", "Standard policy deductible", "May be separate and higher"],
         ["Materials usually removed", "Only what cannot be dried", "Everything porous the water touched"],
       ],
     },
@@ -82,7 +77,7 @@ export const burstPipeVsSewerBackupWhatsCovered: Guide = {
     { type: "h3", text: "Why does sewer backup cleanup cost more?" },
     {
       type: "p",
-      text: "Sewage is Category 3 water. Under the IICRC S500 standard, anything porous it contacts is removed and disposed of, not dried. That means carpet, underpad, drywall, insulation, particleboard cabinets and most upholstered furniture. Hard surfaces are cleaned and disinfected, and air scrubbers with HEPA filtration run during the work. The crew wears full protective equipment, and the debris is handled as contaminated waste. Typical Toronto sewer backup cleanups run $3,000 to $15,000 or more, and the rebuild afterward is a separate scope.",
+      text: "Sewage is Category 3 water. Under the IICRC S500 standard, anything porous it contacts is removed and disposed of, not dried. That means carpet, underpad, drywall, insulation, particleboard cabinets and most upholstered furniture. Hard surfaces are cleaned and disinfected, and air scrubbers with HEPA filtration run during the work. The crew wears full protective equipment, and the debris is handled as contaminated waste. The rebuild afterward is a separate scope.",
     },
     { type: "h2", text: "How can you tell which one you have?" },
     {
@@ -115,7 +110,7 @@ export const burstPipeVsSewerBackupWhatsCovered: Guide = {
     { type: "h2", text: "How do you make sure you are covered for both?" },
     {
       type: "p",
-      text: "Read your declarations page and look for sewer backup and overland water. If neither appears, call your broker and ask for a quote. The premium is usually modest compared to the cost of one uncovered backup. Install a backwater valve and a sump pump with battery backup, and disconnect downspouts from the sewer. The City of Toronto Basement Flooding Protection Subsidy Program covers up to $3,400 toward these devices. For burst pipes, insulate pipes on exterior walls, keep the heat on when away and replace rubber appliance hoses with braided steel. If water is entering through the foundation, DryFort Waterproofing can fix the root cause.",
+      text: "Read your declarations page and look for sewer backup and overland water. If neither appears, call your broker and ask for a quote. The premium is usually modest compared to the cost of one uncovered backup. Install a backwater valve and a sump pump with battery backup, and disconnect downspouts from the sewer. The City of Toronto Basement Flooding Protection Subsidy Program helps pay for these devices. For burst pipes, insulate pipes on exterior walls, keep the heat on when away and replace rubber appliance hoses with braided steel. If water is entering through the foundation, DryFort Waterproofing can fix the root cause.",
     },
     {
       type: "p",
@@ -141,7 +136,7 @@ export const burstPipeVsSewerBackupWhatsCovered: Guide = {
     },
     {
       q: "Does installing a backwater valve lower my premium?",
-      a: "Some insurers offer a discount or a higher sewer backup limit once a backwater valve is installed, and a few require one before offering the endorsement at all. Ask your broker before installation and keep the plumber's invoice and the City permit. Toronto's Basement Flooding Protection Subsidy Program covers up to $3,400 of the cost.",
+      a: "Some insurers offer a discount or a higher sewer backup limit once a backwater valve is installed, and a few require one before offering the endorsement at all. Ask your broker before installation and keep the plumber's invoice and the City permit. Toronto's Basement Flooding Protection Subsidy Program covers part of the cost.",
     },
   ],
   relatedServices: ["burst-frozen-pipes", "sewer-backup", "emergency-water-extraction"],

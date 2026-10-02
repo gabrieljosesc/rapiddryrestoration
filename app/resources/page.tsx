@@ -11,7 +11,7 @@ import { PageHero } from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Water Damage Guides for Toronto Homeowners | Resources",
   description:
-    "Plain-language guides on what to do after a basement flood, what Ontario home insurance covers, restoration costs in Toronto, drying times, and burst pipes vs. sewer backup.",
+    "Plain-language guides on what to do after a basement flood, what Ontario home insurance covers, drying times, and burst pipes vs. sewer backup.",
   alternates: { canonical: "/resources" },
 };
 
@@ -26,7 +26,7 @@ export default function ResourcesPage() {
       <PageHero
         eyebrow="Resources"
         title="Water Damage Guides for Toronto & GTA Homeowners"
-        answer={`Practical, specific answers from ${site.name} on the questions we hear on the emergency line: what to do first, what insurance covers in Ontario, what restoration costs and how long drying takes. New guides are added at least twice a month.`}
+        answer={`Practical, specific answers from ${site.name} on the questions we hear on the emergency line: what to do first, what insurance covers in Ontario and how long drying takes. New guides are added at least twice a month.`}
         crumbs={[{ name: "Resources", href: "/resources" }]}
       />
 

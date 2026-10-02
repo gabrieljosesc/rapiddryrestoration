@@ -53,8 +53,6 @@ export type ServicePage = {
   sections: ContentSection[];
   /** 5–7 concrete steps of what the crew does on site */
   whatWeDo: string[];
-  /** Typical cost range in CAD for Toronto, with an honest note on what moves it */
-  costRange?: { low: number; high: number; note: string };
   /** e.g. "Extraction same day; structural drying 3–5 days" */
   timeline?: string;
   /** What home insurance in Ontario usually covers for this specific situation */
@@ -102,7 +100,6 @@ export type AreaPage = {
 export type GuideSlug =
   | "first-hour-after-basement-flood"
   | "does-home-insurance-cover-water-damage-ontario"
-  | "water-damage-restoration-cost-toronto"
   | "how-long-to-dry-flooded-basement"
   | "burst-pipe-vs-sewer-backup-whats-covered";
 
