@@ -2,7 +2,7 @@
  * Central brand/config for RapidDry Restoration.
  *
  * PLACEHOLDERS (Joe supplies before launch):
- *  - phone / phoneHref   → the brand's own line (must match the Google Business Profile)
+ *  - phone / phoneHref   → set to the real line; must match the Google Business Profile
  *  - responsePromise     → confirm the response-time promise
  *  - address             → registered business address
  *  - certifications      → IICRC badge only once obtained
@@ -17,7 +17,7 @@ function toHref(phone: string) {
   return `tel:+1${digits.length === 11 ? digits.slice(1) : digits}`;
 }
 
-const MAIN_PHONE = "(416) 555-0123"; // PLACEHOLDER
+const MAIN_PHONE = "(647) 478-0804"; // Joe-supplied, 2026-10-09
 
 export const site = {
   name: "RapidDry Restoration",
