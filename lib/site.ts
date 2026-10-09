@@ -30,8 +30,8 @@ export const site = {
 
   phone: trackingPhone || MAIN_PHONE,
   phoneHref: toHref(trackingPhone || MAIN_PHONE),
-  email: "help@rapiddryrestoration.ca", // PLACEHOLDER
-  emailHref: "mailto:help@rapiddryrestoration.ca",
+  email: "info@rapiddryrestoration.ca",
+  emailHref: "mailto:info@rapiddryrestoration.ca",
   /** Street and postal code are left empty until Joe supplies the registered
    *  business address; the site and schema then show "Toronto, ON" only. */
   address: {
