@@ -22,7 +22,7 @@ import {
 } from "@/components/Icons";
 
 export default function HomePage() {
-  const featured = reviews[0];
+  const featured = reviews[0] ?? null;
   return (
     <>
       {/* ---------------- Hero ---------------- */}
@@ -254,27 +254,44 @@ export default function HomePage() {
               Trusted by Homeowners and Insurance Companies
             </h2>
           </div>
-          <figure className="review-card">
-            <QuoteIcon size={28} className="review-card__quote" />
-            <blockquote>
-              <p>&ldquo;{featured.text}&rdquo;</p>
-            </blockquote>
-            <figcaption>
-              <cite>
-                — {featured.name}, {featured.location}
-              </cite>
-            </figcaption>
-          </figure>
+          {featured ? (
+            <figure className="review-card">
+              <QuoteIcon size={28} className="review-card__quote" />
+              <blockquote>
+                <p>&ldquo;{featured.text}&rdquo;</p>
+              </blockquote>
+              <figcaption>
+                <cite>
+                  — {featured.name}, {featured.location}
+                </cite>
+              </figcaption>
+            </figure>
+          ) : (
+            <div className="review-card">
+              <QuoteIcon size={28} className="review-card__quote" />
+              <p>
+                Every review on this site comes from a verified RapidDry customer. We are a new brand from the
+                team behind DryFort Waterproofing, and the first reviews will appear here as jobs are completed.
+              </p>
+              <cite>Verified reviews only. Nothing is paid for or staged.</cite>
+            </div>
+          )}
           <div className="rating">
-            <span className="rating__stars" aria-label={`${reviewSummary.rating} out of 5 stars`}>
-              {[1, 2, 3, 4, 5].map((n) => (
-                <StarIcon key={n} size={22} />
-              ))}
-            </span>
-            <span className="rating__score">{reviewSummary.rating.toFixed(1)}</span>
-            <div className="rating__note">Based on {reviewSummary.count}+ reviews</div>
+            {reviewSummary ? (
+              <>
+                <span className="rating__stars" aria-label={`${reviewSummary.rating} out of 5 stars`}>
+                  {[1, 2, 3, 4, 5].map((n) => (
+                    <StarIcon key={n} size={22} />
+                  ))}
+                </span>
+                <span className="rating__score">{reviewSummary.rating.toFixed(1)}</span>
+                <div className="rating__note">Based on {reviewSummary.count}+ reviews</div>
+              </>
+            ) : (
+              <div className="rating__note">Google reviews coming soon</div>
+            )}
             <Link href="/reviews" className="small" style={{ color: "var(--blue)", fontWeight: 700 }}>
-              Read reviews &amp; see before/after
+              See our work &amp; reviews
             </Link>
           </div>
         </div>

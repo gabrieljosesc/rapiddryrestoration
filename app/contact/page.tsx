@@ -57,8 +57,12 @@ export default function ContactPage() {
                 <div>
                   <strong>Office</strong>
                   <p>
-                    {a.street}
-                    <br />
+                    {a.street && (
+                      <>
+                        {a.street}
+                        <br />
+                      </>
+                    )}
                     {a.city}, {a.region} {a.postal}
                   </p>
                 </div>

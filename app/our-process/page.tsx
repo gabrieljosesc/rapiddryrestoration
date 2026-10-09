@@ -81,7 +81,7 @@ export default function ProcessPage() {
           <div className="grid grid--4 mt-3">
             <div className="stat">
               <strong>60 min</strong>
-              <span>Target arrival anywhere in the GTA (PLACEHOLDER: confirm with Joe)</span>
+              <span>Target arrival anywhere in the GTA</span>
             </div>
             <div className="stat">
               <strong>Day 1</strong>

@@ -35,10 +35,10 @@ export function organizationSchema() {
     email: site.email,
     address: {
       "@type": "PostalAddress",
-      streetAddress: a.street,
+      ...(a.street ? { streetAddress: a.street } : {}),
       addressLocality: a.city,
       addressRegion: a.region,
-      postalCode: a.postal,
+      ...(a.postal ? { postalCode: a.postal } : {}),
       addressCountry: a.country,
     },
     areaServed: [

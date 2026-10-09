@@ -93,7 +93,7 @@ export default function AboutPage() {
                 <CheckCircleIcon size={20} /> <span>Xactimate scoping so estimates match what adjusters expect</span>
               </li>
               <li>
-                <CheckCircleIcon size={20} /> <span>WSIB coverage and commercial general, pollution and mould liability insurance (PLACEHOLDER: confirm)</span>
+                <CheckCircleIcon size={20} /> <span>WSIB coverage and commercial general, pollution and mould liability insurance (in progress)</span>
               </li>
               <li>
                 <CheckCircleIcon size={20} /> <span>Direction to Pay and insurer preferred-vendor program onboarding</span>

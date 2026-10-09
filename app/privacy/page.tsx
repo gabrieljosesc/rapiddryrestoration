@@ -52,7 +52,7 @@ export default function PrivacyPage() {
           </p>
           <h2>Contact</h2>
           <p>
-            {site.legalName}, {site.address.street}, {site.address.city}, {site.address.region}. Phone {site.phone}.
+            {site.legalName}, {site.address.city}, {site.address.region}. Phone {site.phone}.
           </p>
         </div>
       </section>

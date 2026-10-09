@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { images } from "@/lib/images";
 import { reviews, reviewSummary, site } from "@/lib/site";
 import { CtaBand } from "@/components/CtaBand";
-import { QuoteIcon, StarIcon } from "@/components/Icons";
+import { ArrowIcon, QuoteIcon, StarIcon } from "@/components/Icons";
 import { JsonLd, ORG_ID } from "@/components/JsonLd";
 import { PageHero } from "@/components/PageHero";
 
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/reviews" },
 };
 
-/** PLACEHOLDER gallery pairs until real job photography is available. */
+/** Illustrative before/after pairs; replace with real job photography as the crew collects it. */
 const gallery = [
   { title: "Flooded basement, Scarborough", note: "Category 1, 3 inches of water, dried in 4 days", before: images.floodedBasement, after: images.houseInterior },
   { title: "Burst pipe, Vaughan", note: "Kitchen and lower level, tear-out and rebuild", before: images.burstPipes, after: images.kitchen },
@@ -22,6 +23,7 @@ const gallery = [
 ];
 
 function reviewSchema() {
+  if (!reviewSummary || reviews.length === 0) return null;
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -44,28 +46,51 @@ function reviewSchema() {
 }
 
 export default function ReviewsPage() {
+  const schema = reviewSchema();
   return (
     <>
-      <JsonLd data={reviewSchema()} />
+      {schema && <JsonLd data={schema} />}
       <PageHero
         eyebrow="Reviews"
         title="Trusted by Homeowners and Insurance Companies"
-        answer={`${site.name} is rated ${reviewSummary.rating.toFixed(1)} out of 5 by homeowners across Toronto and the GTA for fast response, clean documentation and direct insurance billing.`}
+        answer={
+          reviewSummary
+            ? `${site.name} is rated ${reviewSummary.rating.toFixed(1)} out of 5 by homeowners across Toronto and the GTA for fast response, clean documentation and direct insurance billing.`
+            : `${site.name} publishes only verified reviews from real customers. As a new brand from the team behind DryFort Waterproofing, our first Google and HomeStars reviews will appear here as jobs are completed.`
+        }
         crumbs={[{ name: "Reviews", href: "/reviews" }]}
         meta={
-          <span>
-            <span className="stars">
-              {[1, 2, 3, 4, 5].map((n) => (
-                <StarIcon key={n} size={16} />
-              ))}
+          reviewSummary ? (
+            <span>
+              <span className="stars">
+                {[1, 2, 3, 4, 5].map((n) => (
+                  <StarIcon key={n} size={16} />
+                ))}
+              </span>
+              {reviewSummary.rating.toFixed(1)} · Based on {reviewSummary.count}+ reviews
             </span>
-            {reviewSummary.rating.toFixed(1)} · Based on {reviewSummary.count}+ reviews (PLACEHOLDER until Google reviews are synced)
-          </span>
+          ) : undefined
         }
       />
 
       <section className="section">
         <div className="container">
+          {reviews.length === 0 && (
+            <div className="card" style={{ maxWidth: 720 }}>
+              <h3>Reviews coming soon</h3>
+              <p>
+                We ask every customer for an honest review on Google once the drying log is closed. Nothing on
+                this page will ever be paid for or staged. Until the first reviews are in, you can judge us by
+                how we work: read <Link href="/our-process">our process</Link> and{" "}
+                <Link href="/insurance-claims">how we handle insurance claims</Link>.
+              </p>
+              {site.googleReviewUrl && (
+                <a href={site.googleReviewUrl} className="card__link" target="_blank" rel="noopener">
+                  Leave a Google review <ArrowIcon size={16} />
+                </a>
+              )}
+            </div>
+          )}
           <div className="review-list">
             {reviews.map((r) => (
               <figure key={r.name + r.date} className="review-card">
@@ -92,10 +117,10 @@ export default function ReviewsPage() {
       <section className="section--alt section">
         <div className="container">
           <span className="eyebrow">Before &amp; after</span>
-          <h2 className="section-title">Real jobs, real results</h2>
+          <h2 className="section-title">What a restoration looks like</h2>
           <p className="section-lead mb-4">
-            Sample gallery. Replace with photo documentation from completed jobs (with the homeowner&apos;s
-            permission) as the crew collects it.
+            Illustrative photos of the stages of a water loss. Documented before-and-after sets from completed
+            RapidDry jobs are added here with each homeowner&apos;s permission.
           </p>
           <div className="gallery">
             {gallery.map((g) => (

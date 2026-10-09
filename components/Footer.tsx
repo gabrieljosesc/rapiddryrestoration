@@ -23,7 +23,7 @@ export function Footer() {
             <div className="footer__nap">
               <strong>{site.legalName}</strong>
               <span>
-                {a.street}, {a.city}, {a.region} {a.postal}
+                {[a.street, `${a.city}, ${a.region}`, a.postal].filter(Boolean).join(", ")}
               </span>
               <CallLink location="footer">{site.phone} (24/7)</CallLink>
               <a href={site.emailHref}>{site.email}</a>

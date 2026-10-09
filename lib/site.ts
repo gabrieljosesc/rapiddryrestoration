@@ -26,17 +26,19 @@ export const site = {
   tagline: "24/7 Emergency Water Damage Restoration",
   description:
     "RapidDry Restoration provides 24/7 emergency water damage restoration across Toronto and the GTA. Leak detection, water extraction, tear-out, structural drying and mould prevention, with insurance billed directly.",
-  url: "https://www.rapiddryrestoration.ca", // PLACEHOLDER: set once the domain is purchased
+  url: "https://www.rapiddryrestoration.ca",
 
   phone: trackingPhone || MAIN_PHONE,
   phoneHref: toHref(trackingPhone || MAIN_PHONE),
   email: "help@rapiddryrestoration.ca", // PLACEHOLDER
   emailHref: "mailto:help@rapiddryrestoration.ca",
+  /** Street and postal code are left empty until Joe supplies the registered
+   *  business address; the site and schema then show "Toronto, ON" only. */
   address: {
-    street: "885 Don Mills Rd, Suite 100", // PLACEHOLDER
+    street: "",
     city: "Toronto",
     region: "ON",
-    postal: "M3C 1V9", // PLACEHOLDER
+    postal: "",
     country: "CA",
   },
   hours: "Emergency crews: 24/7, 365 days a year",
@@ -51,6 +53,8 @@ export const site = {
 
   /** Google Business Profile / directory listings for Organization sameAs. Fill in as created. */
   sameAs: [] as string[],
+  /** Direct "write a review" link from the Google Business Profile, once created. */
+  googleReviewUrl: "",
 } as const;
 
 export const sisterCompanies = [
@@ -154,52 +158,15 @@ export type Review = {
   date: string;
 };
 
-/** SAMPLE reviews for the UI. Replace with Joe's real Google / HomeStars reviews before launch. */
-export const reviews: Review[] = [
-  {
-    name: "Sarah T.",
-    location: "Toronto",
-    service: "Flooded basement",
-    rating: 5,
-    text: "RapidDry was amazing. They arrived within an hour, handled everything with our insurance company, and got our home back to normal. Highly recommend.",
-    date: "2026-08-14",
-  },
-  {
-    name: "Michael R.",
-    location: "Vaughan",
-    service: "Burst pipe",
-    rating: 5,
-    text: "A pipe burst in our finished basement on a Sunday night. The crew had the water out before midnight and the drying equipment ran for four days. The adjuster told us the documentation was the cleanest he had seen.",
-    date: "2026-07-02",
-  },
-  {
-    name: "Priya K.",
-    location: "Mississauga",
-    service: "Sewer backup",
-    rating: 5,
-    text: "Sewer backup is disgusting and stressful. They explained what was contaminated, removed it, and billed the insurer directly so we only paid our deductible. Professional from the first call.",
-    date: "2026-05-21",
-  },
-  {
-    name: "David & Anne L.",
-    location: "Markham",
-    service: "Leak detection",
-    rating: 5,
-    text: "We had a mystery stain on the ceiling. They found a slow leak behind the upstairs shower with the thermal camera, opened only what was needed and set up drying the same day.",
-    date: "2026-04-09",
-  },
-  {
-    name: "Jenna M.",
-    location: "Scarborough",
-    service: "Structural drying",
-    rating: 5,
-    text: "Daily moisture readings, clear updates and no surprises. The rebuild through Rebuild Pro was seamless because it was the same team from start to finish.",
-    date: "2026-03-18",
-  },
-];
+/**
+ * Real customer reviews only. Empty until Joe supplies verified Google /
+ * HomeStars reviews; the UI shows a "reviews coming soon" state and no
+ * Review/AggregateRating schema is published while this is empty.
+ */
+export const reviews: Review[] = [];
 
-/** PLACEHOLDER aggregate until real reviews are synced. */
-export const reviewSummary = { rating: 5.0, count: 120 };
+/** Aggregate rating from the Google Business Profile. Leave null until real. */
+export const reviewSummary: { rating: number; count: number } | null = null;
 
 export type TrustBadge = { label: string; note: string; placeholder?: boolean };
 
