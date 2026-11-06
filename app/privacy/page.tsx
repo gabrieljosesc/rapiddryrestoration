@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy",
   description: `How ${site.name} collects, uses and protects the information you share when you request emergency service.`,
   robots: { index: false, follow: true },
+  alternates: { canonical: "/privacy" },
 };
 
 export default function PrivacyPage() {

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Request Received",
   description: "Your emergency request has been received. A dispatcher will call you back in minutes.",
   robots: { index: false, follow: false },
+  alternates: { canonical: "/thank-you" },
 };
 
 export default function ThankYouPage() {

@@ -13,13 +13,13 @@
   --blue-light: #86c3ff;
   --blue-soft: #e9f2fd;
   --blue-soft-2: #d6e7fb;
-  --red: #e5402e;
-  --red-dark: #c73520;
+  --red: #d63622;
+  --red-dark: #bd2c1a;
   --red-soft: #fdecea;
   --green: #1f9d55;
   --text: #12213a;
   --muted: #5a6b82;
-  --dim: #8a99ad;
+  --dim: #5f6f85;
   --border: #dde6f0;
   --bg: #ffffff;
   --bg-alt: #f3f7fb;
@@ -527,7 +527,6 @@ button {
 .header__cta small {
   font-size: 0.68rem;
   font-weight: 600;
-  opacity: 0.9;
 }
 
 .header__cta strong {
@@ -1470,7 +1469,6 @@ button {
 .sticky-call small {
   font-weight: 600;
   font-size: 0.72rem;
-  opacity: 0.9;
   display: block;
   line-height: 1;
 }
@@ -1512,6 +1510,7 @@ button {
   max-width: 340px;
 }
 
+.footer h3,
 .footer h4 {
   color: var(--white);
   font-size: 0.82rem;
@@ -2234,7 +2233,7 @@ a.card:hover {
   font-size: 0.72rem;
   font-weight: 700;
   background: var(--blue-soft);
-  color: var(--blue);
+  color: var(--blue-dark);
 }
 
 .badge--placeholder {
@@ -2488,6 +2487,14 @@ a.card:hover {
   display: grid;
   place-items: center;
   margin: 0 auto 20px;
+}
+
+/* Inline text link: underlined so it is not distinguished by colour alone */
+.text-link {
+  color: var(--blue-dark);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* Utility */

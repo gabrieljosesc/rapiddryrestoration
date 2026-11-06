@@ -5,10 +5,10 @@ import { PhoneIcon } from "@/components/Icons";
 /** Mobile-only sticky click-to-call bar. Hidden at >= 900px (see globals.css). */
 export function StickyCallBar() {
   return (
-    <CallLink location="sticky-mobile" className="sticky-call" ariaLabel={`Call ${site.phone} now`}>
+    <CallLink location="sticky-mobile" className="sticky-call">
       <PhoneIcon size={22} />
       <span>
-        <small>24/7 Emergency · Tap to call</small>
+        <small>24/7 Emergency · Tap to call</small>{" "}
         {site.phone}
       </span>
     </CallLink>

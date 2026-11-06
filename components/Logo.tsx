@@ -43,17 +43,13 @@ export function Logo({
   size?: number;
 }) {
   return (
-    <Link
-      href="/"
-      className={`logo logo--${variant}`}
-      aria-label={`${site.name} home`}
-    >
+    <Link href="/" className={`logo logo--${variant}`} title={`${site.name} home`}>
       <LogoMark size={size} />
       <span className="logo__text">
         <span className="logo__name">
           <span className="logo__rapid">Rapid</span>
           <span className="logo__dry">Dry</span>
-        </span>
+        </span>{" "}
         <span className="logo__sub">Restoration</span>
       </span>
     </Link>

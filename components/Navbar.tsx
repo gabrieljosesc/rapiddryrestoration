@@ -3,14 +3,20 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { areas, areaUrl } from "@/lib/areas";
-import { services } from "@/lib/services";
 import { navLinks, site } from "@/lib/site";
 import { CallLink } from "@/components/CallLink";
 import { ChevronIcon, CloseIcon, MenuIcon, PhoneIcon } from "@/components/Icons";
 import { Logo } from "@/components/Logo";
 
-export function Navbar() {
+export type NavLinkItem = { href: string; label: string; note?: string };
+
+export function Navbar({
+  serviceLinks,
+  areaLinks,
+}: {
+  serviceLinks: NavLinkItem[];
+  areaLinks: NavLinkItem[];
+}) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
@@ -48,19 +54,19 @@ export function Navbar() {
                   </Link>
                   {menu === "services" && (
                     <div className="nav__menu nav__menu--wide">
-                      {services.map((s) => (
-                        <Link key={s.slug} href={`/services/${s.slug}`} className="nav__menu-link">
-                          {s.navLabel}
-                          {s.cardNote && <small>{s.cardNote.replace(/[()]/g, "")}</small>}
+                      {serviceLinks.map((s) => (
+                        <Link key={s.href} href={s.href} className="nav__menu-link">
+                          {s.label}
+                          {s.note && <small>{s.note}</small>}
                         </Link>
                       ))}
                     </div>
                   )}
                   {menu === "areas" && (
                     <div className="nav__menu">
-                      {areas.map((a) => (
-                        <Link key={a.slug} href={areaUrl(a.slug)} className="nav__menu-link">
-                          {a.name}
+                      {areaLinks.map((a) => (
+                        <Link key={a.href} href={a.href} className="nav__menu-link">
+                          {a.label}
                         </Link>
                       ))}
                     </div>
@@ -113,9 +119,9 @@ export function Navbar() {
           </summary>
           <div className="drawer__sub">
             <Link href="/services">All services</Link>
-            {services.map((s) => (
-              <Link key={s.slug} href={`/services/${s.slug}`}>
-                {s.navLabel}
+            {serviceLinks.map((s) => (
+              <Link key={s.href} href={s.href}>
+                {s.label}
               </Link>
             ))}
           </div>
@@ -131,9 +137,9 @@ export function Navbar() {
             Areas We Serve <ChevronIcon size={18} />
           </summary>
           <div className="drawer__sub">
-            {areas.map((a) => (
-              <Link key={a.slug} href={areaUrl(a.slug)}>
-                {a.name}
+            {areaLinks.map((a) => (
+              <Link key={a.href} href={a.href}>
+                {a.label}
               </Link>
             ))}
           </div>

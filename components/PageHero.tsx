@@ -39,7 +39,7 @@ export function PageHero({
       <JsonLd data={breadcrumbSchema(allCrumbs)} />
       {image && (
         <div className="page-hero__bg" aria-hidden="true">
-          <Image src={image} alt={imageAlt} fill sizes="100vw" priority />
+          <Image src={image} alt={imageAlt} fill sizes="100vw" priority fetchPriority="high" quality={60} />
         </div>
       )}
       <div className="container">

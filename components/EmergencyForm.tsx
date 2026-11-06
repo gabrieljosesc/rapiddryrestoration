@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { markPendingLead } from "@/lib/analytics";
-import { services } from "@/lib/services";
 import { site } from "@/lib/site";
 import { CallLink } from "@/components/CallLink";
 import { CheckCircleIcon, PhoneIcon } from "@/components/Icons";
@@ -36,11 +35,13 @@ export function EmergencyForm({
   kind = "emergency",
   heading,
   intro,
+  serviceOptions = [],
 }: {
   variant?: "card" | "band";
   kind?: "emergency" | "contact";
   heading?: string;
   intro?: string;
+  serviceOptions?: { value: string; label: string }[];
 }) {
   const pathname = usePathname();
   const [status, setStatus] = useState<Status>("idle");
@@ -167,9 +168,9 @@ export function EmergencyForm({
           <label htmlFor={`service-${uid}`}>What do you need?</label>
           <select id={`service-${uid}`} name="service" defaultValue="">
             <option value="">Not sure yet</option>
-            {services.map((s) => (
-              <option key={s.slug} value={s.slug}>
-                {s.navLabel}
+            {serviceOptions.map((s) => (
+              <option key={s.value} value={s.value}>
+                {s.label}
               </option>
             ))}
             <option value="other">Something else</option>

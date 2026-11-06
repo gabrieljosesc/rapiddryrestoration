@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { areas, areaUrl } from "@/lib/areas";
+import { services } from "@/lib/services";
 import { site } from "@/lib/site";
 import { CallLink } from "@/components/CallLink";
 import { EmergencyForm } from "@/components/EmergencyForm";
@@ -93,6 +94,7 @@ export default function ContactPage() {
             <EmergencyForm
               variant="card"
               kind="emergency"
+              serviceOptions={services.map((s) => ({ value: s.slug, label: s.navLabel }))}
               heading="Send an emergency request"
               intro="Name, phone, address and what happened. That is all a dispatcher needs to send the right crew."
             />

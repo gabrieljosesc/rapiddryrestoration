@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Terms of Service",
   description: `Terms for using the ${site.name} website and requesting emergency restoration service.`,
   robots: { index: false, follow: true },
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { areas, areaUrl } from "@/lib/areas";
@@ -20,6 +21,8 @@ import {
   quickIcons,
   serviceIcons,
 } from "@/components/Icons";
+
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 export default function HomePage() {
   const featured = reviews[0] ?? null;
@@ -74,6 +77,7 @@ export default function HomePage() {
                 alt="RapidDry technician extracting standing water from a flooded living room"
                 fill
                 priority
+                fetchPriority="high"
                 sizes="(min-width: 900px) 55vw, 100vw"
               />
             </div>
@@ -207,7 +211,7 @@ export default function HomePage() {
                       {step.n === 5 ? (
                         <>
                           We restore to pre-loss condition.{" "}
-                          <Link href="/our-process#rebuild" style={{ color: "var(--blue)" }}>
+                          <Link href="/our-process#rebuild" className="text-link" style={{ fontWeight: 600 }}>
                             (Rebuild via our GC site)
                           </Link>
                         </>
@@ -290,7 +294,7 @@ export default function HomePage() {
             ) : (
               <div className="rating__note">Google reviews coming soon</div>
             )}
-            <Link href="/reviews" className="small" style={{ color: "var(--blue)", fontWeight: 700 }}>
+            <Link href="/reviews" className="small text-link">
               See our work &amp; reviews
             </Link>
           </div>
@@ -306,7 +310,7 @@ export default function HomePage() {
               <h2 className="section-title">Water damage questions, answered plainly</h2>
               <p className="section-lead">
                 Straight answers on response times, who pays, what Ontario insurance covers and what to do right
-                now. More detail lives in our <Link href="/resources" style={{ color: "var(--blue)", fontWeight: 700 }}>guides</Link>.
+                now. More detail lives in our <Link href="/resources" className="text-link">guides</Link>.
               </p>
               <div className="mt-4">
                 <h3 style={{ fontSize: "1rem", marginBottom: 12 }}>Areas we serve</h3>

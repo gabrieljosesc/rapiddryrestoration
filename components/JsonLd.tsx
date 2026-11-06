@@ -70,6 +70,19 @@ export function organizationSchema() {
   };
 }
 
+export function websiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${site.url}/#website`,
+    url: site.url,
+    name: site.name,
+    alternateName: site.shortName,
+    inLanguage: "en-CA",
+    publisher: { "@id": ORG_ID },
+  };
+}
+
 export function faqSchema(faqs: Faq[]) {
   return {
     "@context": "https://schema.org",

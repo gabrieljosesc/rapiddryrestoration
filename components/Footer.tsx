@@ -32,7 +32,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4>Services</h4>
+            <h3>Services</h3>
             <ul>
               {services.map((s) => (
                 <li key={s.slug}>
@@ -43,7 +43,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4>Areas We Serve</h4>
+            <h3>Areas We Serve</h3>
             <ul>
               {areas.map((c) => (
                 <li key={c.slug}>
@@ -54,7 +54,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4>Company</h4>
+            <h3>Company</h3>
             <ul>
               <li>
                 <Link href="/insurance-claims">Insurance Claims</Link>
@@ -72,7 +72,7 @@ export function Footer() {
                 <Link href="/contact">Contact</Link>
               </li>
             </ul>
-            <h4 style={{ marginTop: 26 }}>Guides</h4>
+            <h3 style={{ marginTop: 26 }}>Guides</h3>
             <ul>
               {guides.map((g) => (
                 <li key={g.slug}>
@@ -84,7 +84,7 @@ export function Footer() {
         </div>
 
         <div className="footer__sisters">
-          <h4>Sister Companies</h4>
+          <h3>Sister Companies</h3>
           <div className="sister-grid">
             <div className="sister-card sister-card--self">
               <em>Restoration</em>
